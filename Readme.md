@@ -1,4 +1,4 @@
-# SymptoAI
+# Health_RAG_ChatBot
 
 This project leverages various AI technologies and tools to scrape, store, and process medical data from WebMD and provide fast access to relevant information via an API.
 
