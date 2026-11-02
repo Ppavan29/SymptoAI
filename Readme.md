@@ -33,28 +33,31 @@ This project leverages modern AI frameworks to retrieve, process, and query medi
 ### Prerequisites
 - Git
 - Docker & Docker Desktop
+  
 
-### Quick Start
-1. **Clone the repository:**
+1. Clone the repository to your local machine.
+   
    ```bash
-   git clone [https://github.com/Ppavan29/Health_RAG_ChatBot.git](https://github.com/Ppavan29/Health_RAG_ChatBot.git)
-   cd Health_RAG_ChatBot
-Download Model Weights:
+   git clone https://github.com/Ppavan29/Health_RAG_ChatBot.git
+2. After cloning the repo open the terminal on the same folder 
 
-Create a model directory in the root folder:
+3. create the folder model in root directory
 
-Bash
-mkdir model
-Download the GGUF model file from Hugging Face and place the .gguf file inside the model/ directory.
+4. download the model from huggingface 
+https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF
 
-Launch with Docker:
+5. place the .gguf file in model directory
 
-Ensure Docker Desktop is running.
+6. install docker on you machine 
 
-Run the build command:
+7. start the docker desktop
 
-Bash
-docker-compose up --build
-Access the API:
+8. Run this command in the root directory
 
-Open your browser and navigate to http://localhost:8000/docs to test interactive endpoints.
+   ```bash
+   docker-compose up --build 
+9. Aplication will start and you can test the api 
+http://localhost:8000/docs
+
+10. All done!
+
