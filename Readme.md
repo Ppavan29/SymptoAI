@@ -38,7 +38,7 @@ This project leverages modern AI frameworks to retrieve, process, and query medi
 1. Clone the repository to your local machine.
    
    ```bash
-   git clone https://github.com/Ppavan29/Health_RAG_ChatBot.git
+   git clone https://github.com/Ppavan29/SymptoAI.git
 2. After cloning the repo open the terminal on the same folder 
 
 3. create the folder model in root directory
